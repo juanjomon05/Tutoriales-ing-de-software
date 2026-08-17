@@ -14,11 +14,11 @@ import { RouterLink, RouterView } from 'vue-router';
           </div>
           <nav class="space-y-2">
             <RouterLink
-              to="/"
+              to="/books"
               class="flex items-center px-4 py-3 rounded-lg hover:bg-gray-700 transition duration-200"
             >
-              <i class="fas fa-home mr-3"></i>
-              <span>Home</span>
+              <i class="fas fa-book mr-3"></i>
+              <span>Books</span>
             </RouterLink>
             <RouterLink
               to="/about"
